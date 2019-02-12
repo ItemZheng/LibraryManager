@@ -1,5 +1,18 @@
 # LibraryManager
 
+### Introduce
+
+This project is to design a library manage system based on database. 
+
+Functions:
+		
++ Login
++ Book Entry
++ Borrow Book
++ Search Book
++ Return Book
++ Book Card Manage
+
 ### Prepare
 
 + Apache
@@ -12,7 +25,12 @@
 + Host on `Apache server`
 
 ### Structure
+
 ![structure](https://github.com/ItemZheng/LibraryManager/blob/master/img/structure.jpg)
+
+### E-R Diagram
+
+![E-R diagram](https://github.com/ItemZheng/LibraryManager/blob/master/img/E-R_Diagram.jpg)
 
 ### Run
 
@@ -26,3 +44,26 @@
 
 #### Images
 
++ Login
+
+![Login](https://github.com/ItemZheng/LibraryManager/blob/master/img/login.jpg)
+
++ Manage
+
+![Manage](https://github.com/ItemZheng/LibraryManager/blob/master/img/manage.jpg)
+
++ Entry
+
+![Entry](https://github.com/ItemZheng/LibraryManager/blob/master/img/entry.jpg)
+
++ Borrow
+
+![Borrow](https://github.com/ItemZheng/LibraryManager/blob/master/img/borrow.jpg)
+
++ Search
+
+![Search](https://github.com/ItemZheng/LibraryManager/blob/master/img/search.jpg)
+
++ Return
+
+![Return](https://github.com/ItemZheng/LibraryManager/blob/master/img/return.jpg)
