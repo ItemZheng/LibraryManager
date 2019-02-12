@@ -1,0 +1,123 @@
+body{
+    /*background-color: rgb(238, 233, 209);*/
+    background-color: #2b363e;
+}
+
+#Pic_Top_Frame{
+    background-image: url("TopPic1.jpg");
+    background-size: 100%;
+    background-position: center;
+
+    width: 100%;
+    height: 75%;
+}
+
+#TipLabel{
+  /*  background-color: rgba(255, 255, 255,0);*/
+    height:40px;
+
+    font-size: 16px;
+    font-family: 'Georgia';
+    color: wheat;
+
+    margin-right: 0px;
+}
+
+#LableDisply{
+    text-align: center;
+    float: right;
+    line-height: 40px;
+
+    width: 150px;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 15px;
+}
+
+#LogOut_Img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+}
+
+#LogOutLabel{
+    height: 40px;
+    width: 150px;
+    /*From right to left*/
+    float: right;
+
+    background-color: rgba(100, 100, 100, 0.5);
+    margin-right: 50px;
+    border-radius: 15px;
+
+    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+}
+
+#Function_Frame{
+    width: 100%;
+    height: 25%;
+}
+
+.SubFun_Frame{
+    float: left;
+    /*five part*/
+    width: 20%;
+    height: 30%;
+}
+
+.Fun_Back{
+    /*the blue backgroud*/
+    background-color:#72A7A3;
+    height: 100px;
+    width: 100px;
+
+    /*A circle actually*/
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-left: 37%;
+}
+
+.Fun_Image_Part{
+    height: 80px;
+    width: 80px;
+    /*make it in center of the box*/
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.Fun_Describe{  
+    font-size: 28px;
+    font-family: 'Cambria';
+    text-align: center;
+   /* color:#41848F;*/
+   color:#FFFFFF;
+    margin-top: 10px;
+}
+
+.Fun_Detail{
+    font-size: 13px;
+    margin-top: -22px;
+    font-family: 'Lucida Grande';
+    color: #9aa1a6;
+    text-align: center;
+}
+/*the color when <a></a>(超链接) in different color*/
+a:link {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+a:visited {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+a:hover {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+a:active {
+    color:#FFFFFF;
+    text-decoration:none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">  
+    <title>Login</title>
+    <!-- Style comes from login.css-->
+    <link rel="stylesheet" type="text/css" href="login.css"/>  
+</head>  
+  
+<body> 
+<!-- id is for css to idtentify --> 
+<div id="Login_Frame">  
+    <!-- Logo image information-->
+    <p id="Logo"><img id = "Logo_Image" src="Logo_Login.png"></p>  
+    
+    <!--post means send the input to Admin_Login.php-->
+    <form method="post" action="Admin_Login.php">  
+        
+        <!--Label and input box and the name is for php to identify-->
+        <p><label class="label_display">User:</label><input type="text" id="username" name = "username" class="text_input"/></p>  
+        <p><label class="label_display">Password:</label><input type="password" id="password" name = "password" class="text_input"/></p>  
+  
+        <div id="login_control"> 
+            <!-- to submit the information to php-->
+            <input type="submit" id="btn_login"  name = "btn_login" value="Login" />  
+        </div>  
+    </form>  
+</div>  
+  
+</body> 
+</html> 

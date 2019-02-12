@@ -1,0 +1,105 @@
+body{
+    background-image: url("LoginBackgroud1.jpg");
+    width:100%;height:100%;  
+    background-size:100%;
+}
+
+#Login_Frame{
+    /*the size of login frame*/
+    width: 560px;
+    height: 360px;
+    padding: 15px;
+
+    /*position*/
+    position: absolute;
+    /*Left top coner is at Center of screen*/
+    left: 50%;
+    top: 50%;
+    /*Adjust to real centre*/
+    margin-left: -280px;
+    margin-top: -180px;
+
+    /*background color*/
+    background-color: rgba(255,255,255,0.5);
+
+    /*to make border smooth*/
+    border-radius: 15px;
+
+    /*make element at the center of frame*/
+    text-align: center;
+}
+
+form p > * {
+    /*Let lable and input are in middle*/
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Logo_Image{
+    /*size of logo image*/
+    height: 100px;
+    width: 100px;
+}
+
+#Logo{
+    /*the position 30px to top*/
+    margin-top: 30px;
+}
+
+.label_display{
+    /*the lable attribute*/
+
+    /*font*/
+    font-size: 20px;
+    font-family: 'Cambria';
+
+    /*Position of label*/
+    width: 100px;
+    height: 37px;
+    line-height: 35px;
+    text-align: center;
+    margin-left: -30px;
+
+    /*Set color*/
+    color: white;
+    background-color:#97C0B7;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.text_input{
+    /*size */
+    width: 278px;
+    height: 35px;
+
+    /*board*/
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0px;
+
+    /*Font*/
+    font-family: 'Cambria';
+    font-size: 20px;
+}
+
+#btn_login{
+    /*font*/
+    font-size: 20px;
+    font-family: 'Cambria';
+
+    /*size*/
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+
+    /*color*/
+    color: white;
+    background-color: #97C0B7;
+    border-radius: 6px;
+    border: 0;
+}
+
+#login_control{  
+    padding: 7px 28px;  
+}  
