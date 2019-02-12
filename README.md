@@ -11,6 +11,9 @@
 + Execute scripts in fold `\sql` to create and initialize database
 + Host on `Apache server`
 
+### Structure
+![structure](https://github.com/ItemZheng/LibraryManager/blob/master/img/structure.jpg)
+
 ### Run
 
 ##### Visit
